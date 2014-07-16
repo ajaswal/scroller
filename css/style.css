@@ -83,11 +83,15 @@ h1 {
 }
 
 .main section.page2 {
-  /*background: url(../img/phones.png) 120% 254px no-repeat rgb(230, 217, 200);*/
   background: #454545;
 }
+
 .main section.page3 {
   background: #91D5D9;
+}
+
+.main section.page4 {
+  background: #fff;
 }
 
 .main section.page2 .page_container {
@@ -140,6 +144,10 @@ body.viewing-page-3 .header h1, body.viewing-page-3 .nav-top span.right a {
   color: #e8654f;
 }
 
+body.viewing-page-3 .header h1, body.viewing-page-3 .nav-top span.right a {
+  color: #fff;
+}
+
 .main section.page3 .page_container {
   position: absolute;
   margin-left: -325px;
@@ -161,4 +169,29 @@ body.viewing-page-3 .header h1, body.viewing-page-3 .nav-top span.right a {
   font-size: 28px;
   font-weight: 400;
   color: #fff;
+}
+
+.main section.page4 .page_container {
+  position: absolute;
+  bottom: 0;
+  margin-left: -325px;
+  left: 61%;
+  margin-bottom: 200px;
+  max-width: 650px;
+}
+
+.main section.page4 .page_container p{
+  line-height: 160%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #e8654f;
+}
+
+.avatar {
+  background: url("../img/ajay.jpg") repeat 0 0 #454545;
+  height: 140px;
+  width: 140px;
+  background-size: 145px 145px;
+  border-radius: 50%;
+  margin-left: 6em;
 }
